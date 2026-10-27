@@ -1,0 +1,19 @@
+{
+  "assets/OFL-Xiaolai.txt": "0df7e09be4c2c850a48bd8beb9cd64b343aad49cd5d3f6cfb2ad2e3d28a56ca4",
+  "assets/messenger-sticker-prompt.txt": "38c9816177bcad4db74a165aa3a69436791bc3da2927589b26a8817b3b6fa309",
+  "assets/messenger-sticker.png": "a99aa5981035109924d49fa15cc151a39d6fe301c320de2c54e2d8c6c3ef3363",
+  "assets/snowbay-hand.woff2": "4258c01fb0cbbc879ea3f94f707d16d9a01757ac6f47da6c818566d295139929",
+  "audio.js": "e15cb89e22d7c390d6a6a53306e5bd00decda02973a0e266a315e8ecd2508702",
+  "core.js": "6dc7e9ad5cc1a9d0740c2e38b4ba06297c2a00b7ab4ed21c293f8ae809191831",
+  "game.js": "94aa2f9594e45ec7017fa5f4500238089d6c86d7405ef746e8b5e43025be823e",
+  "index.html": "fa8339eb90add3c18f74e19cbc6ffece710b1f8dbea00caeced27f1acf009bd8",
+  "storage.js": "a6b20ef7839a215e0e23a919aaa63e24d1eb1e8172c0c9000bec842d48553f7c",
+  "style.css": "5e65c0d894d1171eb0e6c712864782753f5990d06a9527da56c7ed9b6b7cb080",
+  "ui.js": "13a261b8ea8c37ba84cc265376fa9b03364fff6ef46315cd640c97d0781fe929",
+  "vendor/THREE-LICENSE.txt": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc",
+  "vendor/three.core.min.js": "6486aa0d719cfa87ec88dc47223b59b1fb8417a1a407fc0e52467c943e2f8cc9",
+  "vendor/three.module.min.js": "36a60b0120335f89a80a0dab70292292b0ec414b3d05e83cd09a3ea428c6712a",
+  "world.js": "f2ffa55f73c727bb89fb455805aa0e857d355918cbd247992de9c7c702ee4c2b",
+  "ASSETS.md": "84b46961d3d6b5603db3846988cc15756dea0774cd965812ed66b7b5e31dff96",
+  "LOOPIT_IMPORT.txt": "3d0e4aa1b1e3e931ac77bf6066ad95e7bada63a8d3f76fb054942357e3beb848"
+}

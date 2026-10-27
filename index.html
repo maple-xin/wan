@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#30263f">
+  <meta name="description" content="A cozy 3D Halloween village. Grow pumpkins, bake warm treats and send little letters to your neighbors.">
+  <title>Pumpkin Bay: Little Letters</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='4' y='4' width='56' height='56' rx='17' fill='%23fff4dc'/%3E%3Cpath d='M31 18Q26 7 37 7' fill='none' stroke='%237d8b62' stroke-width='5'/%3E%3Cellipse cx='32' cy='36' rx='23' ry='20' fill='%23e89a52' stroke='%23574761' stroke-width='2'/%3E%3Cpath d='m20 33 6-7 4 8m7-1 6-7 4 8M21 43q12 10 23-1' fill='none' stroke='%23574761' stroke-width='3' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body data-phase="title">
+  <canvas id="world" tabindex="0" aria-label="Pumpkin Bay, an interactive 3D Halloween village"></canvas>
+  <div id="ui"></div>
+  <div id="loading" role="status" aria-live="polite">
+    <div class="loading-seal" aria-hidden="true">✉</div>
+    <h1>Pumpkin Bay</h1>
+    <p>Grow a little. Send a little joy.</p>
+    <span id="load-status">Waking up the pumpkin patch…</span>
+  </div>
+  <noscript><p class="no-script">Please enable JavaScript to walk through Pumpkin Bay.</p></noscript>
+  <script type="module" src="./game.js"></script>
+</body>
+</html>

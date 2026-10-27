@@ -1,0 +1,39 @@
+南瓜湾来信 · Pumpkin Bay: Little Letters
+Loopit 交接说明（2026-10-27）
+
+先确认入口：这是“种植→制作→寄信”的简化3D万圣节经营游戏。
+不是讨糖闯关版，也不是冬日雪湾版。
+
+一、文件怎么选
+Pumpkin_Bay_Loopit_Static.zip：多文件纯静态发布候选包，根目录index.html，全部依赖/字体/图片本地随包提供。
+Pumpkin_Bay_3D_Halloween_Mobile.zip：完整源码、测试、说明和本地单文件试玩备份。
+本次未取得Loopit的官方导入技术规范，尚未导入平台；不能保证它支持上述ZIP直接导入。
+如果平台有项目/HTML导入入口，按它要求选择静态包；如果只有对话创建入口，将源码包作为参考交给平台，不要当成已经托管的作品。
+如平台只接受单一脚本或要求SDK，需要根据其实际模板再适配；不要随意删掉模块改成一个新游戏。
+不要上传冬日存档、QA截图或测试存档。正式URL不要带?qa参数。
+
+二、可直接粘贴给Loopit的指令
+请读取附件，将《Pumpkin Bay: Little Letters》适配到本平台的未发布试玩环境。
+保留现有玩法：6块地、免费南瓜8秒/小麦12秒成熟、汤8秒/饼干12秒、烤炉队列3份、2封滚动居民来信、送信赚金币、2封雇种植员/4封雇烤炉员、3处固定装饰，6封为可继续游玩的派对里程碑。
+必须保留真实3D角色行走和种植/采收/入炉/取货/投信动作，雇员自动备货，不需要反复安排。
+手机竖屏优先，左手摇杆、右手点操作，场景单指转镜头/双指缩放，弹窗不挡全部场景。文字主要用英文；可爱纸质造景贴纸UI，暖橙南瓜、奶油纸色、紫色夜景、柔和灯光，无惊吓或强闪烁。
+先接入现有index.html、多文件ES模块、vendor和assets，所有相对路径都要兼容平台子目录。不要换成讨糖闯关游戏。
+若平台不支持附件格式、ES模块/WebGL2或其沙盒禁止所需能力，请先明确指出实际限制和需要的最小适配；不能以静态截图假装可运行。
+沿用独立稳定存档键pumpkin-bay-little-letters-v1。平台如有存档API，可适配同一游戏状态结构；刷新/关闭重开必须保留进度。受限时明确提示并保留导出备份。不要读取或覆盖雪湾来信存档。
+适配后只提供未发布预览，不要直接公开发布。
+
+三、导入后必须复测
+1. 手机点开始，摇杆移动、松手停止；同时移动/转镜头不串输入。
+2. 种植→成熟→采收→排队制作→取成品→寄信，金币/扣料只到账一次。
+3. 雇员实际行走工作，上一封未寄出时仍会补充合理库存。
+4. 切后台/暂停冻结计时；刷新、关闭重开及更新作品后存档保留。
+5. 子目录资源/字体加载、3D画面、声音开启/静音/音量均正常，无空白面板和控制台错误。
+6. iOS Safari和Android Chrome真机各试玩一轮，检查刘海安全区、软键盘、触控及发热/掉帧。
+7. 平台预览、发布版若换域名/容器，存档不能默认为自动互通，必须再确认或迁移。
+
+四、发布信息（人手发布时参考）
+English title: Pumpkin Bay: Little Letters
+Description: Grow pumpkins, bake cozy treats and send little letters in a tiny 3D Halloween village. Hire helpful neighbors and light up your own autumn corner.
+How to play: Drag the left pad to walk. Tap Garden to plant and harvest, Bakery to queue treats, and Letters to send parcels. Helpers unlock after 2 and 4 letters. Move manually to cancel an unfinished errand. Open Pause for sound and save backups.
+话题：Halloween（按你提供的活动Brief添加）
+目前仅本地验收；最终投稿资格以平台当期实际规则为准。
